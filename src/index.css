@@ -1,0 +1,19 @@
+:root {
+  --gradient-x: 50%;
+  --gradient-y: 50%;
+}
+
+body {
+  background-color: #121212; /* Dark theme background */
+  color: #ffffff; /* Default text color */
+}
+
+.bg-dark {
+  background-color: #121212;
+}
+
+.bg-gradient-to-br {
+  background-size: 200% 200%;
+  background-position: var(--gradient-x, 50%) var(--gradient-y, 50%);
+  transition: background-position 0.2s ease;
+}
